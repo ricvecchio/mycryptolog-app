@@ -2,7 +2,7 @@
 
 ---
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Kotlin](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Flask](https://img.shields.io/badge/flask-2.3.3-green)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
@@ -19,7 +19,6 @@ O MyCryptoLog App é uma aplicação web que permite aos usuários registrar, vi
 
 ## ✨ Funcionalidades
 
-- **📊 Dashboard** - Visão geral das criptomoedas e transações
 - **💰 Registro de Transações** - Adição de compras, vendas e transfers
 - **📈 Acompanhamento** - Histórico completo de transações
 - **🎨 Interface Responsiva** - Design moderno e adaptável
@@ -54,7 +53,7 @@ O MyCryptoLog App é uma aplicação web que permite aos usuários registrar, vi
 
 Antes de iniciar, certifique-se de ter instalado:
 
-- Python 3.8 ou superior
+- Kotlin 2.0.21 ou superior
 - Pip (gerenciador de pacotes Python)
 - Git
 
@@ -87,8 +86,7 @@ mycryptolog-app/
 │   ├── base.html
 │   ├── index.html
 │   ├── login.html
-│   ├── register.html
-│   └── dashboard.html
+│   └── register.html
 ├── models/                # Modelos de dados
 ├── routes/                # Rotas da aplicação
 └── utils/                 # Utilitários
@@ -104,7 +102,6 @@ mycryptolog-app/
 - **GET /logout** - Fazer logout
 
 ### Transações
-- **GET /dashboard** - Dashboard principal
 - **POST /add_transaction** - Adicionar transação
 - **GET /transactions** - Listar transações
 - **PUT /transaction/<id>** - Atualizar transação
