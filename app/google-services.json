@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214927062641",
+    "project_id": "cripto-log",
+    "storage_bucket": "cripto-log.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214927062641:android:afcba5e88258190b584dd0",
+        "android_client_info": {
+          "package_name": "com.blimas.mycryptolog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4zLs0BGrpomrDpnT9KRkbAISk01ujvac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
